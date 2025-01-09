@@ -1,0 +1,6 @@
+@TexasTimsBigWinSlots_HostAddress = http://localhost:5129
+
+GET {{TexasTimsBigWinSlots_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

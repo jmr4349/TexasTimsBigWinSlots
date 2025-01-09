@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "scripts": {
+  "start": "dotnet run --project TexasTimsBigWinSlotsBackend",
+  "client": "npm start --prefix texastimsbigwinslotsfrontend",
+  "dev": "concurrently \"npm run start\" \"npm run client\""
+}
+
+}
